@@ -1,41 +1,75 @@
-/* Style the tab */
-.tab {
- overflow: hidden;
+html {
+  color: white;
 
- border: 1px solid #ccc;
- background-color: #f1f1f1;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
 }
 
-/* Style the buttons that are used to open the tab content */
-.tab button {
- float: left;
+body {
+  margin: 0;
+  padding: 0;
 
- padding: 14px 16px;
-
- cursor: pointer;
- transition: 0.3s;
-
- border: none;
- outline: none;
- background-color: inherit;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 1000pt;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
- background-color: #ddd;
+button {
+  color: inherit;
+  font-family: inherit;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
- background-color: #ccc;
+header {
+  overflow: hidden;
+
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
 }
 
-/* Style the tab content */
-.tabcontent {
- display: none;
+.header-button {
+  user-select: none;
+  font-size: 2em;
 
- padding: 6px 12px;
+}
 
- border: 1px solid #ccc;
- border-top: none;
+.header-button:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  width: 100%;
+
+
+  background-color: #4b4b4b;
+}
+
+
+.social-media-link {
+  padding: 0;
+  margin: 0;
+  width: 30pt;
+  height: 30pt;
+
+}
+
+
+
+#licence {
+  margin: 5pt;
+  flex: 1;
 }
