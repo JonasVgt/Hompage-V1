@@ -2,6 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -17,7 +18,32 @@
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="Github.svg">
   <defs
-     id="defs2" />
+     id="defs2">
+    <linearGradient
+       id="linearGradient2447"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ff0028;stop-opacity:1;"
+         offset="0"
+         id="stop2445" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2335"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#e2e2e2;stop-opacity:1;"
+         offset="0"
+         id="stop2333" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient895"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#e2e228;stop-opacity:1;"
+         offset="0"
+         id="stop893" />
+    </linearGradient>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ebc7e2"
@@ -25,9 +51,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="14.55"
-     inkscape:cx="12.026707"
-     inkscape:cy="16.713651"
+     inkscape:zoom="7.275"
+     inkscape:cx="-4.534918"
+     inkscape:cy="32.698997"
      inkscape:document-units="pt"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -54,53 +80,39 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 2"
+     transform="translate(0,-10)"
+     style="display:inline">
+    <g
+       id="g2419"
+       transform="matrix(0.12177218,0,0,0.12177218,5.477478,19.017658)"
+       style="fill:#ffffff;fill-opacity:1">
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         id="g2549"
+         transform="matrix(0.21661151,0,0,0.22209044,-32.705604,-61.777759)">
+        <path
+           id="path2538"
+           transform="scale(64)"
+           d="M 6.02,16.060439 C 6.02,16.060439 6.01,14.39 6.01,13.72 4,14.09 3.48,13.23 3.32,12.78 3.23,12.55 2.84,11.84 2.5,11.65 2.22,11.5 1.82,11.13 2.49,11.12 3.12,11.11 3.57,11.7 3.72,11.94 4.44,13.15 5.59,12.81 6.05,12.6 6.12,12.08 6.33,11.73 6.56,11.53 4.78,11.33 2.92,10.64 2.92,7.58 2.92,6.71 3.23,5.99 3.74,5.43 3.66,5.23 3.38,4.41 3.82,3.31 c 0,0 0.67,-0.21 2.2,0.82 0.64,-0.18 1.32,-0.27 2,-0.27 0.68,0 1.36,0.09 2,0.27 1.53,-1.04 2.2,-0.82 2.2,-0.82 0.44,1.1 0.16,1.92 0.08,2.12 0.51,0.56 0.82,1.27 0.82,2.15 0,3.07 -1.87,3.75 -3.65,3.95 0.29,0.25 0.54,0.73 0.54,1.48 0,1.07 -0.01,3.050439 -0.01,3.050439 z"
+           inkscape:connector-curvature="0"
+           style="clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd;fill-opacity:1"
+           sodipodi:nodetypes="ccccccccscccscccscscc" />
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Background"
      transform="translate(0,-10)"
      style="display:inline">
     <circle
        id="path3763"
-       cx="15"
+       cx="14.999999"
        cy="25"
-       style="fill:#ffffff;stroke-width:0.56169844"
-       r="15" />
-  </g>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-292.88889)"
-     style="display:none;opacity:1">
-    <path
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:1.598261;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 19.098745,306.11286 c -1.194577,-3.87209 -6.301944,-2.97764 -7.043882,1.27695 -0.741937,4.2546 1.74171,4.68837 3.377768,4.69592 1.636059,0.007 3.624922,-2.6775 3.624922,-3.17181"
-       id="path3801"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="czzc" />
-    <path
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:1.598261;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 18.8104,316.51272 c -1.042014,0.55533 -1.599286,0.68062 -3.995653,0.55729 -5.1150109,-0.20596 -8.8975355,-4.48198 -8.8975355,-9.49483 0,-5.01286 4.6829215,-8.95933 9.6595935,-8.95933 4.976671,0 8.71217,3.9904 8.71217,8.95933 0,0 -0.03109,2.45165 -1.647692,3.95445 -1.6166,1.50282 -2.965846,0.26775 -2.965846,0.26775 -0.599496,-0.45478 -0.572334,-7.12626 -0.411923,-8.4856"
-       id="path3805"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cczzczsc" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="Layer 2"
-     transform="translate(0,-10)"
-     style="display:inline">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:Chandas;-inkscape-font-specification:'Chandas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40761939"
-       x="5.3535395"
-       y="35.817368"
-       id="text4614"
-       transform="scale(1.0450384,0.95690264)"><tspan
-         sodipodi:role="line"
-         id="tspan4612"
-         x="5.3535395"
-         y="35.817368"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Chandas;-inkscape-font-specification:'Chandas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.40761939">G</tspan></text>
+       style="fill:none;stroke:#fffffd;stroke-width:0.96774197;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       r="14.516129" />
   </g>
 </svg>
