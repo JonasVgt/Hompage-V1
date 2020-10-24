@@ -48,7 +48,7 @@ header {
 }
 
 footer {
-  position: absolute;
+  
   bottom: 0;
 
   display: flex;
@@ -62,14 +62,15 @@ footer {
 }
 
 .social-media-link {
-  margin: 5pt;
-  padding: 0;
+  margin: 0pt;
+  padding: 3pt;
+  width: 20pt;
+  height: 20pt;
 }
 
 #licence {
   flex: 1;
-
-  margin: 5pt;
+  margin: 2pt;
 }
 
 p{
@@ -80,4 +81,9 @@ p{
 .textbox{
   background-color: gray;
 
+}
+
+.wrapper{
+ 
+  min-height: 100vh;
 }
