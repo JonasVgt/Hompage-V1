@@ -8,23 +8,27 @@
 </head>
 
 <body style="
-background-image: url('background.jpg');
-background-repeat: no-repeat;
-background-position: center top;
-background-size: auto 800pt;">
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto 800pt;">
 
     <div class="wrapper">
         <div class="title">Jonas Voigt</div>
 
         <header>
+
             <div class="header-button">Projects</div>
             <div class="header-button">About me</div>
-            <div class="header-button">Contact</div>
+            <a href="#contact">
+                <div class="header-button">Contact</div>
+            </a>
         </header>
 
 
         <div class="textbox">
             <p>
+
                 Hello my Name is Jonas Voigt,
                 I have just started to study software ingeneering at the RWTH university in Aachen, Germany.
                 For about 10 Years programming has been one of my biggest Hobbies. Now I want to share some of my future
@@ -38,7 +42,7 @@ background-size: auto 800pt;">
 
         </div>
     </div>
-    <?php include "footer.html" ?>
+    <?php include "footer.php" ?>
 
 </body>
 

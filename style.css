@@ -3,6 +3,9 @@ html {
 
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1em;
+
+  scroll-behavior: smooth;
+
 }
 
 body {
@@ -30,7 +33,7 @@ header {
 
 .header-button {
   user-select: none;
-
+  color: white;
   font-size: 1.5em;
 }
 
@@ -47,34 +50,9 @@ header {
   text-decoration: underline;
 }
 
-footer {
-  
-  bottom: 0;
-
-  display: flex;
-  overflow: hidden;
-  align-items: center;
-  justify-content: flex-end;
-
-  width: 100%;
-
-  background-color: #4b4b4b;
-}
-
-.social-media-link {
-  margin: 0pt;
-  padding: 3pt;
-  width: 20pt;
-  height: 20pt;
-}
-
-#licence {
-  flex: 1;
-  margin: 2pt;
-}
-
 p{
  padding: 10pt;
+ text-align: justify;
 }
 
 
@@ -84,6 +62,7 @@ p{
 }
 
 .wrapper{
- 
+  margin: auto;
+  max-width: 800pt;
   min-height: 100vh;
 }
