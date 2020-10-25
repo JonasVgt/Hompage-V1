@@ -25,6 +25,11 @@
             </a>
         </header>
 
+        <?php
+        include("article_preview.html");
+        
+        ?>
+
 
         <div class="textbox">
             <p>
