@@ -46,16 +46,11 @@ textarea{
             Hey! Please contact me!
         </p>
 
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-            consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed
-            diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-            takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <p>If you want to talk to me about a project or anything else, feel free to contact me over the contact-form on the right. Alternativly you can also find me on the Social Media below.<br>
+        Hope to hear from You!</p>
     </div>
 
-    <form>
+    <form method="POST" action="contact-form-handler.php">
 
         <div style="display: flex; flex-wrap: wrap;">
             <div class="inputfield" style="flex:1;" >

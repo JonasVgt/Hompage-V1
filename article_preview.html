@@ -1,62 +1,78 @@
 <!DOCTYPE html>
 
 
-<style>
-.article-preview-box{  
 
-    
-}
-
-.article-preview-box:after{
-    content: "";
-  display: table;
-  clear: both;
-}
-
-
-.article-preview-tile {
-    display: inline-block;
-    vertical-align: top;
-    width: 24.999%;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-}
-@media only screen and (max-width: 600px) {
-    .article-preview-tile{
-        width: 49.999%;   
-
-    }
-}
-@media only screen and (max-width: 300px) {
-    .article-preview-tile{
-        width: 100%;
-    }
-
-}
-
-img{
-    width: 100%;
-    
-}
-
-
-
-</style>
 
 <div class="article-preview-box">
-    <div class="article-preview-tile">
-        <img src="article1.jpg">
-        <p>ARTICLE1</p>
-    </div><div class="article-preview-tile">
-        <img src="article2.jpg">
-        <p>ARTICLE2</p>
-    </div><div class="article-preview-tile">
-        <img src="article3.jpg">
-        <p>ARTICLE3</p>
-    </div><div class="article-preview-tile">
-        <img src="article4.jpg">
-        <p>ARTICLE4</p>
+    <style>
+
+
+
+    
+       div.article-preview {
+            padding: 0;
+            margin: 5pt;
+            border: gray 2pt solid;
+            background-color: wheat;
+        }
+    
+        .article-preview-box {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+    
+        }
+    
+        @media only screen and (max-width: 700px) {
+            .article-preview-box {
+                grid-template-columns: 50% 50%;
+    
+            }
+        }
+    
+        @media only screen and (max-width: 300px) {
+            .article-preview-box {
+                grid-template-columns: 100%;    
+            }
+    
+        }
+    
+        img.article-preview {
+            width: 100%;
+            height: 100pt;
+            object-fit: cover;
+            object-position: center center;
+        }
+    
+        p.article-preview{
+            padding: 5pt;
+            margin: 0;
+            color: black;
+        }
+    </style>
+
+
+    <div class="preview-tile">
+     <div class="article-preview">
+        <img class="article-preview" src="article1.jpg">
+        <p class="article-preview">ARTICLE1</p>
+     </div>
+    </div>
+    <div class="preview-tile">
+        <div class="article-preview">
+            <img class="article-preview" src="article2.png">
+            <p class="article-preview">ARTICLE2</p>
+        </div>
+    </div>
+    <div class="preview-tile">
+        <div class="article-preview">    
+            <img class="article-preview" src="article3.jpg">
+            <p class="article-preview">ARTICLE3</p>
+        </div>
+    </div>
+    <div class="preview-tile">
+        <div class="article-preview">
+            <img class="article-preview" src="article4.jpg">
+            <p class="article-preview">ARTICLE4</p>
+        </div>
     </div>
 </div>
