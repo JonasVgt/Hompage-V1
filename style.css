@@ -50,10 +50,6 @@ header {
   text-decoration: underline;
 }
 
-p{
- padding: 10pt;
- text-align: justify;
-}
 
 
 .textbox{
@@ -66,3 +62,5 @@ p{
   max-width: 800pt;
   min-height: 100vh;
 }
+
+
