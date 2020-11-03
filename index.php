@@ -14,18 +14,11 @@
     background-size: auto 800pt;">
 
     <div class="wrapper">
-        <div class="title">Jonas Voigt</div>
 
-        <header>
-
-            <div class="header-button">Projects</div>
-            <div class="header-button">About me</div>
-            <a href="#contact">
-                <div class="header-button">Contact</div>
-            </a>
-        </header>
-
+        
+        
         <?php
+        include("header/header.php");
         include("article_preview.html");
         
         ?>
