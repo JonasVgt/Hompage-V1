@@ -1,39 +1,11 @@
 <!DOCTYPE html>
-<style>
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: normal;
-    overflow: hidden;
-    width: 100%;
-    background-color: #4b4b4b;
-    text-align: center;
-    overflow: hidden;
-}
 
-.social-media-link {
-    margin: 0pt;
-    padding: 3pt;
-    width: 20pt;
-    height: 20pt;
+<link rel="stylesheet" type="text/css" href="footer/footer.css">
 
-}
+<footer>
+    <p class="footer-part" id="licence">2020 Jonas Voigt</p>
 
-#licence {
-    background-color: darkslategray;
-    margin: 0;
-}
-</style>
-
-<footer id="contact">
-
-    <?php
-    include("contactform.php");
-    ?>
-
-
-
-    <div>
+    <div class="footer-part">
         <a href="mailto: jonas17voigt@gmail.com" target="_blank">
             <img class="social-media-link" src="Icons/Mail.svg" type="image/svg" /></a>
 
@@ -46,8 +18,12 @@ footer {
         <a href="https://twitter.com" target="_blank">
             <img class="social-media-link" src="Icons/Twitter.svg" type="image/svg" /></a>
     </div>
-
-    <p id="licence">2020 Jonas Voigt</p>
-
+    <div style="text-align: end" class="footer-part" >
+        <a div class="footer-link" href="privacy.php">PRIVACY</a>
+        <a div class="footer-link" href="privacy.php">PRIVACY</a>
+        <a div class="footer-link" href="privacy.php">PRIVACY</a>
+        <a div class="footer-link" href="privacy.php">PRIVACY</a>
+        <a div class="footer-link" href="privacy.php">PRIVACY</a>
+    </div>
 
 </footer>
