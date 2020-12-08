@@ -4,10 +4,12 @@
 
 
 <header>
-
-    <div class="header-button">Projects</div>
-    <div class="header-button">About me</div>
-    <a href="contact.php">
+    <ul>
+        
+    <li><div class="header-button">Projects</div></li>
+    <li><div class="header-button">About me</div></li>
+    <li><a href="contact.php">
         <div class="header-button">Contact</div>
-    </a>
+    </a></li>
+</ul>
 </header>

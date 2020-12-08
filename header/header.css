@@ -1,13 +1,29 @@
-header {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  
+header {  
     margin-top: 20pt;
     margin-bottom: 20pt;
   }
   
+
+  header ul{
+    list-style: none;
+    text-align: center;
+  }
+
+  header ul li{
+    display: inline-block;
+    margin: 20pt;
+  }
+
+
+  @media (max-width: 600px){
+    header ul li{
+      display: block;
+    }
+  }
+
+
+
+
   .header-button {
     user-select: none;
     color: white;
