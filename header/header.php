@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="header/header.css">
 
-<div class="title">Jonas Voigt</div>
+<a href="index.php"><div class="title">Jonas Voigt</div></a>
 
 
 <header>

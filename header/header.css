@@ -25,8 +25,6 @@ header {
 
 
   .header-button {
-    user-select: none;
-    color: white;
     font-size: 1.5em;
   }
 
