@@ -8,8 +8,14 @@
     <title>Document</title>
 </head>
 
-<body>
+<body style="background-color: gray">
+
+
     <div class="wrapper">
+
+    <?php  include("header/header.php");?>
+
+        
         <p style="color: black;">
         This is where you can contact me!<br>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
