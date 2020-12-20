@@ -1,0 +1,25 @@
+.article{
+
+}
+
+.article p{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.article img{
+    width: 100%;
+    
+}
+
+.article .title{
+    text-align: left;
+    font-size: 2em;
+    margin: 5pt 0;
+}
+
+.article .date{
+    color: gray;
+    margin: 5pt 0;
+}
