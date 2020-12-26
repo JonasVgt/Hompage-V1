@@ -8,29 +8,31 @@
 </head>
 
 <body>
-
-    <div class="wrapper">
-
-        
-        <div style="background-color:gray">
+    <div style="background-color: rebeccapurple;">
         <?php
-        include("../header/header.php");        
+        $conn = new mysqli("localhost", "root", "", "website");
+        if ($mysqli->connect_errno) {
+            echo "Failed to connect to MySQL: (" . $conn->connect_errno . ") " . $conn->connect_error;
+        }
+        echo $conn->host_info . "<br>";
+        
+        $sql = "SELECT title, author, date, text FROM articles";
+        $result = $conn->query($sql);
+        if($result->num_rows > 0){
+
+            while($row = $result-> fetch_assoc()){
+                echo("title:".$row["title"]."  author".$row["author"]."<br>");
+                include("articlePreview.php");
+            }
+        }else{
+            echo("no data");
+        }
+
+        $conn->close();
         ?>
-        </div>
+    </div>
 
 
-
-        <div class="article">
-            <img class="article-thumbnail" src="/article1.jpg">
-            <p class="title">Artikel 1!! Toll macht spass!</p>
-            <p class="text-preview">Das hier ist der Text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci minus repudiandae mollitia non beatae quae iste eum ab error fugit eius, neque nisi possimus veniam, sunt velit soluta aspernatur distinctio....</p>
-            <p class="date">19.12.2020</p>
-        </div>
-
-
-
-
-    <?php include "../footer/footer.php" ?>
 
 </body>
 

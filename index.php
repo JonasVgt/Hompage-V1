@@ -39,6 +39,8 @@
 
 
         </div>
+
+        <?php include("Projects/projectList.php");?>
     </div>
     <?php include "footer/footer.php" ?>
 
